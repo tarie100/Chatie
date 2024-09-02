@@ -1,45 +1,31 @@
-.chatbot-container {
-    width: 400px;
-    height: 600px;
+/* Chatbot.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  .App{
+    background-color: rgb(87, 219, 252);
+  }
+  
+  .chatbot-container {
+    width: 400px; 
+    height: 600px; 
     border: 2px solid #4CAF50;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background-color: peachpuff
   }
-  
-  .chatbot-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.2em;
-  }
-  
-  .chatbot-messages {
-    flex: 1;
-    padding: 10px;
-    overflow-y: auto;
-  }
-  
-  .chatbot-input {
-    display: flex;
-    border-top: 1px solid #ddd;
-  }
-  
-  .chatbot-input input {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 0;
-  }
-  
-  .chatbot-input button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+  /* Chatbot.css */
+.chatbot-container .react-chatbot-kit-chat-bot-avatar img {
+    width: 150px; 
+    height: 70px; 
+    border-radius: 50%; 
   }
   

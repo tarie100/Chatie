@@ -6,18 +6,20 @@ import MessageParser from './MessageParser';
 import ActionProvider from './ActionProvider';
 import './chat.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="chatbot-container">
-          <div className="chatbot-header">Chatbot</div>
-          <Chatbot config={config} messageParser={MessageParser} actionProvider={ActionProvider} />
-        </div>
-      </header>
-    </div>
-  );
+function App(){
+return (
+  <div className="App">
+    <header className="App-header">
+      <div className="chatbot-container">
+        <Chatbot className="chaat"
+          config={config}
+          messageParser={MessageParser}
+          actionProvider={ActionProvider}
+          headerText="Chat with Chatie" 
+        />
+      </div>
+    </header>
+  </div>
+);
 }
-
-
 export default App;
